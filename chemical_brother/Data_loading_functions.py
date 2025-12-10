@@ -1,0 +1,1 @@
+# qui potreste mettere tutte le funzioni che fanno operazioni semplici sui dati
