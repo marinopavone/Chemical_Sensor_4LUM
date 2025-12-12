@@ -241,6 +241,7 @@ scaler = StandardScaler()
 # scaler_test = StandardScaler()   assolutamente no
 x_train = scaler.fit_transform(x_train)
 # x_test = scaler_test.fit_transform(x_test) assolutamente no
+x_test = scaler.transform(x_test)
 
 Neural_network_model=train_mlp(x_train, y_train, hidden_layer_sizes,learning_rate=0.0001)
 
